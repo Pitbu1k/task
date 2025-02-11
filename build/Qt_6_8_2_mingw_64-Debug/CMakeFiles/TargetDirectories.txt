@@ -1,0 +1,9 @@
+C:/Users/Zahar/Documents/task/build/Qt_6_8_2_mingw_64-Debug/CMakeFiles/task.dir
+C:/Users/Zahar/Documents/task/build/Qt_6_8_2_mingw_64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Zahar/Documents/task/build/Qt_6_8_2_mingw_64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Zahar/Documents/task/build/Qt_6_8_2_mingw_64-Debug/CMakeFiles/list_install_components.dir
+C:/Users/Zahar/Documents/task/build/Qt_6_8_2_mingw_64-Debug/CMakeFiles/install.dir
+C:/Users/Zahar/Documents/task/build/Qt_6_8_2_mingw_64-Debug/CMakeFiles/install/local.dir
+C:/Users/Zahar/Documents/task/build/Qt_6_8_2_mingw_64-Debug/CMakeFiles/install/strip.dir
+C:/Users/Zahar/Documents/task/build/Qt_6_8_2_mingw_64-Debug/CMakeFiles/task_autogen_timestamp_deps.dir
+C:/Users/Zahar/Documents/task/build/Qt_6_8_2_mingw_64-Debug/CMakeFiles/task_autogen.dir

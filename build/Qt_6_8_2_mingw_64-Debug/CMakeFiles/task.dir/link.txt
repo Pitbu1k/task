@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\task.dir/objects.a
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\task.dir/objects.a @CMakeFiles\task.dir\objects1.rsp
+C:\Qt\Tools\mingw1310_64\bin\g++.exe -DQT_QML_DEBUG -g -Wl,--whole-archive CMakeFiles\task.dir/objects.a -Wl,--no-whole-archive -o task.exe -Wl,--out-implib,libtask.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\task.dir\linkLibs.rsp

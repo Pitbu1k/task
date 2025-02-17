@@ -47,7 +47,7 @@ void ModifProg::findFiles(QStringList &files) {
 
 }
 
-void ModifProg::modificateFiles(QStringList files, quint64 binValue) {
+void ModifProg::modificateFiles(QStringList files, uint64_t binValue) {
 
     QDir dirOutput(outputPath);
     QDir dirInput("../Input");
@@ -84,11 +84,15 @@ void ModifProg::modificateFiles(QStringList files, quint64 binValue) {
         QDataStream output(&outputFile);
         uint64_t value;
 
-        while(!input.atEnd()) {
-            input >> value;
-            value ^= binValue;
-            output << value;
+        while (!inputFile.atEnd()) {
+            char byte;
+            inputFile.read(&byte, 1);
+            byte ^= (binValue & 0xFF);
+            outputFile.write(&byte, 1);
         }
+
+        qDebug() << "Input file size: " << inputFile.size();
+        qDebug() << "Output file size: " << outputFile.size();
 
         inputFile.close();
         outputFile.close();
